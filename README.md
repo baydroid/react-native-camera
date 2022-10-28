@@ -6,6 +6,22 @@ See this [issue](https://github.com/react-native-community/react-native-camera/i
 
 We are looking for maintainers for this package, or to depreciate this in favor of [react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) or [expo-camera](https://docs.expo.io/versions/latest/sdk/camera/), if nobody want to maintain this package.
 
+## Why this fork?
+
+This fork is is almost exactly identical to the original.
+
+It's intended to work with later versions of react-native, where ViewPropTypes must be imported from deprecated-react-native-prop-types instead of react-native.
+
+The differences from the orginal are:
+- RNCamera.js updated to import ViewPropTypes from deprecated-react-native-prop-types;
+- And README.md modified.
+
+## Install
+
+```sh
+npm install https://github.com/baydroid/react-native-camera.git
+```
+
 ## Docs
 Follow our docs here [https://react-native-camera.github.io/react-native-camera/](https://react-native-camera.github.io/react-native-camera/)
 
