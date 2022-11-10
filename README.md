@@ -14,6 +14,7 @@ It's intended to work with later versions of react-native, where ViewPropTypes m
 
 The differences from the orginal are:
 - RNCamera.js updated to import ViewPropTypes from deprecated-react-native-prop-types;
+- package.json updated to change git repository;
 - And README.md modified.
 
 ## Install
